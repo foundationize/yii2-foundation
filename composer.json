@@ -23,5 +23,11 @@
         "psr-4": {
             "foundationize\\foundation\\": ""
         }
-    }       
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/foundationize/yii2-foundation"           
+        }
+    ]       
 }
