@@ -9,6 +9,7 @@ namespace foundationize\foundation;
 
 use yii\web\AssetBundle;
 
+
 class FoundationAsset extends AssetBundle 
 {
     //public $basePath = '@webroot';
@@ -22,7 +23,10 @@ class FoundationAsset extends AssetBundle
         // The core Foundation CSS
         //'https://cdn.jsdelivr.net/foundation/6.1.1/foundation.min.css', 
         // For CSS autocompleting, we'll use direct files instead of CDN
-        'css/foundation.min.css'
+        'css/foundation.min.css',
+        // Motion UI: http://foundation.zurb.com/sites/docs/motion-ui.html
+        'https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.1.1/motion-ui.min.css'
+        
     ];
     // JS awesomeness: http://www.jsdelivr.com/projects/foundation
     public $js = [
