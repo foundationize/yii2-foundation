@@ -4,7 +4,7 @@
 Foundation Extension for Yii 2
 ==============================
 
-Based on yii2-bootstrap code, use this extension instead of yii2-bootstrap.
+Based on yii2-bootstrap code, use this extension instead of (or alongside) yii2-bootstrap.
 
 Widgets in progress:
 
@@ -27,26 +27,5 @@ Helpers:
 Installation
 ------------
 
-The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
-
-Either run
-
-```
-php composer.phar require --prefer-dist foundationize/yii2-foundation "dev-master"
-```
-
-or add
-
-```
-"foundationize/yii2-foundation": "dev-master"
-```
-
-to the require section of your `composer.json` file.
-
-Further Information
--------------------
-Please, check the [Zurb Foundation site](http://foundation.zurb.com) documentation for further information about its configuration options.
-
-
-<i>Your framework + Foundation = <3</i>  
-[foundationize.com](http://foundationize.com)
+Complete installation instructions:
+[foundationize.com](http://foundationize.com/yii2)
