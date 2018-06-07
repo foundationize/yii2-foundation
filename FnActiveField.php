@@ -17,7 +17,7 @@ use yii\helpers\ArrayHelper;
 class FnActiveField extends \yii\widgets\ActiveField {
 
   public $template = "{beginLabel}{labelTitle}\n{input}{endLabel}\n{error}\n{hint}\n";
-  public $inlineTemplate = "<div class=\"row\"><div class=\"small-3 columns\">{label}</div><div class=\"small-9 columns\">{input}\n{error}\n{hint}</div></div>\n";
+  public $inlineTemplate = "<div class=\"grid-x\"><div class=\"cell small-3\">{label}</div><div class=\"cell small-9\">{input}\n{error}\n{hint}</div></div>\n";
   public $checkboxTemplate = "{input}\n{label}\n{error}\n{hint}\n";
   public $checkboxListTemplate = "{label}\n{input}\n{error}\n{hint}\n";
   public $radioTemplate = "{label}\n{input}\n{error}\n{hint}\n";

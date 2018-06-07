@@ -1,6 +1,7 @@
 <?php
 /**
  * FoundationAsset - defines the AssetBundle for Foundation resources
+ * https://cdnjs.com/libraries/motion-ui
  *
  * @link http://www.foundationize.com/#yii2
  */
@@ -25,7 +26,7 @@ class FoundationAsset extends AssetBundle
         // For CSS autocompleting, we'll use direct files instead of CDN
         'css/foundation.min.css',
         // Motion UI: http://foundation.zurb.com/sites/docs/motion-ui.html
-        'https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.1.1/motion-ui.min.css'
+        'https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.2.3/motion-ui.min.js'
         
     ];
     // JS awesomeness: http://www.jsdelivr.com/projects/foundation
